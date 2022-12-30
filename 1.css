@@ -176,3 +176,10 @@ li{
     width: 100%;
     height: 130px;
 }
+
+#obrazek{
+    border: #D5E1C4 solid 4px;
+    width: 35%;
+    height: 20%;
+    float: right;
+}
