@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Strona główna</title>
+	<link rel="stylesheet" href="1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<a href="index.html"><div class="link"></div></a>
+	</header>
+	<div class="menu">
+    	<div class="borderek">
+       	<button type="button" class="collapsible"><a href="#">Porady pielęgnacyjne</a></button>
+       	<div class="content">
+        	<a href="1.1.html">Dlaczego ochrona SPF jest tak ważna dla skóry?</a>
+        	<a href="1.2.html">Jak wybrać odpowiedni krem nawilżający do twojej cery? </a>
+        	<a href="1.3.html">Działanie witaminy C na skórę</a>
+        	<a href="1.4.html">Czy retinoidy są bezpieczne?</a>
+        	<a href="1.5.html"> Hipoalergiczny, niekomedogenny i bezzapachowy?</a>
+        	<a href="1.6.html">Nakładanie kosmetyków w okolicach oka</a>
+        	</div>
+       	 
+        	<button type="button" class="collapsible"><a href="#">Codzienna pielęgnacja</a></button>
+        	<div class="content">
+        	<a href="2.1.html">Jak powinna wyglądać codzienna pielęgnacja?</a>
+        	<a href="2.2.html">Koreańska pielęgnacja</a>
+        	</div>
+        	<button type="button" class="collapsible"><a href="#">Wpływ roślin na skórę</a></button>
+        	<div class="content">
+          	<a href="3.1.html">Właściwości wybranych roślin</a>
+           	<a href="3.2.html">Zastosowanie roślin w kosmetykach</a>
+        	</div>
+        	<button type="button" class="collapsible"><a href="4.html">Polecane produkty</a></button>
+    	</div>
+   	 
+	</div>
+	<div class="main">
+    	<div id="strona"><h1>Czy retinoidy są bezpieczne?</h1></div>
+
+		<div class="article">
+			<p>Retinoidy to pochodne witaminy A. Istnieje wiele rodzajów substancji należących do tej grupy, które znajdują zastosowanie zarówno w kosmetykach, zabiegach gabinetowych, jak i dermatologii. Witamina A działa wielokierunkowe, dlatego znacząco jest powiązana z wieloma procesami biologicznymi. 
+				<br><br>
+				Działają przeciwtrądzikowo - niwelują produkcję sebum i regulują proces rogowacenia naskórka.
+				Stymulują powstawanie nowych włókien kolagenowych i elastynowych, dzięki czemu charakteryzują się dużą skutecznością w niwelowaniu oznak starzenia.
+				Powodują także powstawanie nowych naczyń krwionośnych, dzięki czemu skóra jest lepiej dotleniona i odżywiona.
+				Poprawiają wygląd cery z przebarwieniami.</p>
+		   </div>
+ 
+		<div class="article">
+			<p>Rodzaje retinoidów:</p>
+			<p><br><br>I generacja –  retinol (alkoholowa forma witaminy A), retinal, tretynoina, izotretynoina<br><br>
+				II generacja – etretynat i acytretyna (wykorzystywane głównie w leczeniu łuszczycy) <br><br>
+				III generacja – adapalen, beksaroten, tazaroten <br><br>
+				IV generacja – trifanoid i seletinoid G</p> <br><br>
+		</div>
+		
+		<div class="article">
+			<p>Kosmetyki z retinolem <br><br>W kosmetykach natomiast znajdziemy delikatne pochodne witaminy A, w postaci octanu i pamitynianu retinolu. Preparaty z retinolem są szczególnie polecane do skóry zarówno z cechami fotostarzenia, jak i starzenia hormonalnego, gdyż wpływają na głębsze warstwy skóry. Stymulują różnicowanie i namnażanie keratynocytów oraz fibroblastów, a tym samym sprzyjają syntezie kolagenu oraz elastyny, poprawiając spoistość, sprężystość skóry. Mają zdolność regeneracji włókien kolagenowych i elastylowych już istniejących. Zapobiegają również utracie wody (TEWL) oraz stymulują syntezę kwasu hialuronowego, wpływając na prawidłowe nawodnienie skóry, dlatego stosowane są w pielęgnacji skóry suchej oraz atopowej. Wszystkie te funkcje sprzyjają regeneracji i odżywieniu skóry, a także zmniejszają istniejące zmarszczki i zapobiegają powstaniu nowych. Ostatecznym rezultatem jest wygładzenie, nawilżenie i rozjaśnienie skóry.</p>
+		   </div>
+
+	</div>
+
+	</div>
+
+
+	<script>
+    	var coll = document.getElementsByClassName("collapsible");
+    	var i;
+   	 
+    	for (i = 0; i < coll.length; i++) {
+      	coll[i].addEventListener("click", function() {
+        	this.classList.toggle("active");
+        	var content = this.nextElementSibling;
+        	if (content.style.display === "block") {
+          	content.style.display = "none";
+        	} else {
+          	content.style.display = "block";
+        	}
+      	});
+    	}
+    	</script>
+
+</body>
+</html>
+
+
+
+
+
