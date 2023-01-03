@@ -178,8 +178,15 @@ li{
 }
 
 #obrazek{
-    border: #D5E1C4 solid 4px;
-    width: 35%;
-    height: 20%;
-    float: right;
+    border: none;
+    width: 100%;
+    height: 30%;
+    float: center;
+    display: block;
+    margin: 0;
 }
+
+#obrazek img{
+    height: auto;
+}
+
