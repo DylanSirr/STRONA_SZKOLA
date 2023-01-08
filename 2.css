@@ -19,12 +19,14 @@ body{
 	text-decoration: none;
 	color: #A1A7A2;
 	display: block;
-	font-size: 25px;
+	font-size: 1.5vw;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	text-align: center;
 	border-bottom: #D5E1C4 solid 4px;
 	margin-top: 20px;
+	font-family: Arsenal;
+    font-weight: bold;
 }
 
 header{
@@ -102,6 +104,7 @@ p{
 	display: none;
 	overflow: hidden;
 	background-color: #D5E1C4;
+	font-size: 0.95vw;
   }
 /*.article p{
 	font-size: 20px;
@@ -115,7 +118,7 @@ p{
 	text-align: justify;
 	float: left;
     margin-right: 2.5%;
-    border-bottom: 3px solid #D5E1C4;
+    
     
 }
 
@@ -131,6 +134,7 @@ p{
 	float: left;
     margin-right: 2.5%;
     border-bottom: 3px solid #D5E1C4;*/
+	border-bottom: 3px solid #D5E1C4;
 }
 
 /*.article img{
@@ -153,7 +157,7 @@ p{
     
 #kroki{
 	width: 60%;
-	height: 70%;
+	height: 50%;
     border: #D5E1C4 solid 4px;
     float: center;
 }
@@ -425,4 +429,30 @@ img:hover{
 .articla img:hover{
     transform: scale(1.05);
     transition-duration: 0.5s;
+}
+
+.content a{
+	font-size: 120%;
+}
+
+
+.footer{
+    display: block;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-top: 2px solid #D5E1C4;
+}
+
+.footer p{
+    font-size: 20px;
+    font-family: Sofia Sans Condensed;
+}
+
+h1{
+    font-size: 2.88vw;
 }

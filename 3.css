@@ -19,12 +19,14 @@ body{
 	text-decoration: none;
 	color: #A1A7A2;
 	display: block;
-	font-size: 25px;
+	font-size: 1.5vw;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	text-align: center;
 	border-bottom: #D5E1C4 solid 4px;
 	margin-top: 20px;
+	font-family: Arsenal;
+    font-weight: bold;
 }
 
 header{
@@ -104,6 +106,7 @@ p{
 	display: none;
 	overflow: hidden;
 	background-color: #D5E1C4;
+	font-size: 0.95vw;
   }
 
 
@@ -121,13 +124,16 @@ p{
 	text-align: justify;
 	float: left;
     margin-right: 2.5%;
-    border-bottom: 3px solid #D5E1C4;
+   
 }
 
 .article{
+	border-bottom: 3px solid #D5E1C4;
+	text-align:justify;
 	display: flex;
-	padding: 3%;
-    
+    font-size: 1.5vw;
+    margin-right: 2.5%;
+	padding-bottom: 2%;
 }
 
 .article img{
@@ -135,9 +141,11 @@ p{
 }
 
 .article2{
+	border-bottom: 3px solid #D5E1C4;
+	text-align:justify;
 	display: flex;
-	padding: 3%;
-    
+    font-size: 1.5vw;
+    margin-right: 2.5%;
 }
 
 .article2 img{
@@ -149,7 +157,6 @@ p{
 	text-align: justify;
 	float: left;
     margin-right: 2.5%;
-    border-bottom: 3px solid #D5E1C4;
 }
 
 #kentia{
@@ -376,7 +383,6 @@ img:hover{
     margin-bottom: 2.5%;
 }
 .abcdefghijklm{
-	border-bottom: 3px solid #D5E1C4;
 	text-align:justify;
 	display: flex;
     font-size: 1.5vw;
@@ -399,4 +405,34 @@ img:hover{
 }
 
 
+.content a{
+	font-size: 120%;
+}
 
+
+.footer{
+    display: block;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-top: 2px solid #D5E1C4;
+}
+
+.footer p{
+    font-size: 20px;
+    font-family: Sofia Sans Condensed;
+}
+
+#wstęp2 a{
+	text-decoration: underline;
+	color: #6e9b2f;
+	font-weight:bold;
+}
+
+h1{
+    font-size: 2.88vw;
+}

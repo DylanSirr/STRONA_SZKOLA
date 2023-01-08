@@ -19,12 +19,14 @@ body{
 	text-decoration: none;
 	color: #A1A7A2;
 	display: block;
-	font-size: 25px;
+	font-size: 1.5vw;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	text-align: center;
 	border-bottom: #D5E1C4 solid 4px;
 	margin-top: 20px;
+	font-family: Arsenal;
+    font-weight: bold;
 }
 
 header{
@@ -123,6 +125,7 @@ p{
 	display: none;
 	overflow: hidden;
 	background-color: #D5E1C4;
+	font-size: 0.95vw;
   }
 
 
@@ -158,4 +161,35 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+.content a{
+	font-size: 120%;
+}
 
+.footer{
+    display: block;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-top: 2px solid #D5E1C4;
+}
+
+.footer p{
+    font-size: 20px;
+    font-family: Sofia Sans Condensed;
+}
+
+/* #left{
+	width: 50%;
+}
+
+#right{
+	width: 50%;
+} */
+
+h1{
+    font-size: 2.88vw;
+}
